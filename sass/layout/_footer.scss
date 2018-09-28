@@ -1,0 +1,41 @@
+footer {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: #212024;
+    padding: 1rem;
+    text-align: center;
+    height: 300px;
+
+    h2 {
+        color: #fff;
+        margin: 3px;
+        padding: 30px;
+    }
+    p {
+        color: #eee;
+    }
+    .social {
+        padding: 30px;
+        .social-icon {
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            border: 1px solid #ffffff50;
+            border-radius: 50%;
+            color: #fff;
+            margin: 3px;
+            
+
+            &:hover i{
+                color: #fe1818;
+            }
+
+            i {
+                font-size: 1.5rem;
+                line-height: 50px;
+                color: #fff;
+            }
+        }
+    }
+}
